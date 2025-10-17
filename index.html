@@ -1,28 +1,65 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Julia Villela | Product Designer</title>
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header>
-    <h1>Julia Villela</h1>
-    <nav>
-      <a href="#">Sobre</a>
-      <a href="#">Projetos</a>
-      <a href="#">Contato</a>
-    </nav>
-  </header>
+    <header>
+        <nav>
+            <h1>Julia Villela</h1>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
 
-  <section>
-    <h2>Product Designer focada em criar experiências digitais que simplificam a vida das pessoas.</h2>
-    <p>Especializada em UX/UI, chatbots e melhoria contínua através de dados.</p>
-  </section>
+    <section id="sobre" class="section">
+        <div class="container">
+            <h2>Sobre mim</h2>
+            <p>Tenho experiência em design de interfaces, UX Writing, análise de métricas e criação de fluxos e jornadas de usuário.</p>
+        </div>
+    </section>
 
-  <footer>
-    <p>© 2025 Julia Villela — Feito com 💛 </p>
-  </footer>
+    <section id="projetos" class="section">
+        <div class="container">
+            <h2>Projetos</h2>
+            <div class="grid">
+                <div class="card">
+                    <img src="assets/imagens/projeto1.jpg" alt="Projeto 1">
+                    <h3>Projeto 1</h3>
+                    <p>Descrição curta do projeto, tecnologia usada ou resultado.</p>
+                </div>
+                <div class="card">
+                    <img src="assets/imagens/projeto2.jpg" alt="Projeto 2">
+                    <h3>Projeto 2</h3>
+                    <p>Descrição curta do projeto, tecnologia usada ou resultado.</p>
+                </div>
+                <!-- Mais projetos -->
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="section">
+        <div class="container">
+            <h2>Contato</h2>
+            <form>
+                <input type="text" placeholder="Nome" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Mensagem" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Julia Villela</p>
+    </footer>
 </body>
 </html>
+
